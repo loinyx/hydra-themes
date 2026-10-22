@@ -4443,8 +4443,8 @@ select option:checked::before { display: none; }
 }
 /* Título da seção oculto: a aba ativa já diz qual lista é */
 .home__title {
-  margin-top: 24px;
-  margin-bottom: 12px;
+  
+  
   font: 600 24px/32px var(--font-display) !important;
   margin: 32px 0 16px 4px !important;
   font-family: "Mica Blank", var(--font-display);
@@ -5038,9 +5038,9 @@ select option:active { background: rgba(255, 255, 255, .04) !important; }
 
 .settings-download-sources__item + .settings-download-sources__item::after { left: 16px; right: 16px; }
 .settings-download-sources__item-header {
-  grid-column: 2;
+  
   grid-row: 1;
-  display: flex;
+  
   align-items: center;
   gap: 8px;
   min-width: 0;
@@ -5075,7 +5075,7 @@ select option:active { background: rgba(255, 255, 255, .04) !important; }
 }
 
 .settings-download-sources__navigate-button {
-  margin-left: 4px;
+  
   grid-area: count;
   justify-self: end;
   margin: 0 !important;
@@ -5087,18 +5087,18 @@ select option:active { background: rgba(255, 255, 255, .04) !important; }
 }
 
 .settings-download-sources__navigate-button small::before {
-  content: "· ";
+  
   content: none;
 }
 .settings-download-sources__navigate-button:hover { background: var(--ctl-bg-hover) !important; }
 
 .settings-download-sources__item .text-field-container__text-field-input {
   padding: 0;
-  height: 18px;
-  font: 400 12px/18px "Cascadia Mono", Consolas, monospace;
-  color: var(--text-3);
+  
+  
+  
   text-overflow: ellipsis;
-  font-weight: 400;
+  
   font: 400 12px/16px var(--font) !important;
   color: var(--text-3);
   height: 16px;
@@ -5114,7 +5114,7 @@ select option:active { background: rgba(255, 255, 255, .04) !important; }
   display: none;
 }
 .settings-download-sources__buttons-container {
-  order: 3;
+  
   order: 1;
   flex-direction: row-reverse;
   margin-left: 0;
@@ -5123,7 +5123,7 @@ select option:active { background: rgba(255, 255, 255, .04) !important; }
 .settings-download-sources__buttons-container .button:not(.button--danger) { background: var(--accent); color: var(--on-accent); border-color: transparent; font-weight: 600; }
 .settings-download-sources__buttons-container .button:not(.button--danger):hover { background: var(--accent-hover) !important; }
 .settings-download-sources__header > .button {
-  order: 2;
+  
   order: 2;
   background: var(--ctl-bg);
   border: 1px solid var(--ctl-stroke);
@@ -5147,7 +5147,7 @@ select option:active { background: rgba(255, 255, 255, .04) !important; }
   grid-row: 2;
   display: block;
   min-width: 0;
-  margin-top: -2px;
+  
   grid-area: url;
   margin-top: 2px;
   padding-left: 15px;
@@ -5173,9 +5173,9 @@ select option:active { background: rgba(255, 255, 255, .04) !important; }
   font: 600 14px/20px var(--font) !important;
   grid-column: 1;
   grid-row: 1;
-  display: flex;
-  align-items: center;
-  gap: 8px;
+  
+  
+  
   grid-area: name;
   display: flex;
   align-items: center;
@@ -5193,7 +5193,7 @@ select option:active { background: rgba(255, 255, 255, .04) !important; }
 .settings-context-panel__group > :is(.text-field-container, .select-field__container, .settings-general__network-interface) { height: auto !important; }
 
 .settings-context-panel__group > *, .settings-context-panel > * {
-  flex-shrink: 0 !important;
+  
   flex: none !important;
 }
 
@@ -5262,7 +5262,7 @@ select option:active { background: rgba(255, 255, 255, .04) !important; }
 }
 .console-card__chip {
   min-width: 0;
-  overflow: hidden;
+  
   white-space: nowrap;
   text-overflow: ellipsis;
   flex: 0 1 auto;
@@ -5293,7 +5293,7 @@ select option:active { background: rgba(255, 255, 255, .04) !important; }
 .settings__panel > h2 + .settings-context-panel:has(> p:first-child) { margin-top: 0 !important; }
 .settings-context-panel > p:first-child, .settings-emulation__description { margin: 0 0 4px 0 !important; padding: 0 !important; font: 400 13px/20px var(--font) !important; color: var(--text-2) !important; }
 .settings-emulation {
-  gap: 16px;
+  
   display: flex;
   flex-direction: column;
   gap: 0 !important;
@@ -5303,8 +5303,8 @@ select option:active { background: rgba(255, 255, 255, .04) !important; }
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 12px;
-  margin-top: 4px;
-  margin: 0 !important;
+  
+  
   padding: 0 !important;
   margin: 0 !important;
 }
@@ -5314,7 +5314,7 @@ select option:active { background: rgba(255, 255, 255, .04) !important; }
 
 .settings-emulation__title { margin-bottom: 4px !important; }
 .settings-emulation__header {
-  margin-bottom: 8px;
+  
   display: flex !important;
   flex-direction: column;
   gap: 0 !important;
@@ -5329,11 +5329,11 @@ select option:active { background: rgba(255, 255, 255, .04) !important; }
 
 
 .achievements-content__achievements-list__section__container {
-  top: 80px !important;
+  
   top: 0 !important;
 }
 .achievement-panel {
-  top: 337px !important;
+  
   top: 257px !important;
 }
 /* Conquistas: barra de rolagem na borda da janela, como nas outras páginas */
@@ -5343,7 +5343,7 @@ select option:active { background: rgba(255, 255, 255, .04) !important; }
   padding-top: 80px !important;
   scroll-padding-top: 80px;
   margin-right: 0 !important;
-  padding-right: 16px !important;
+  
   padding-right: 4px !important;
 }
 /* Biblioteca: rolagem no padrão — a barra na borda da janela, os cartões
@@ -5380,7 +5380,7 @@ select option:active { background: rgba(255, 255, 255, .04) !important; }
 }
 
 .download-group__progress-info-row {
-  display: flex !important;
+  
   flex-direction: row !important;
   flex-wrap: nowrap !important;
   align-items: flex-end !important;
@@ -5392,7 +5392,7 @@ select option:active { background: rgba(255, 255, 255, .04) !important; }
 .download-group__progress-time { grid-column: 1; grid-row: 2; }
 .download-group__progress-info-row > span:empty { display: none; }
 .download-group__progress-percentage {
-  margin-left: auto !important;
+  
   order: 9;
   align-self: flex-end !important;
   font: 600 28px/32px var(--font-display) !important;
@@ -5409,22 +5409,22 @@ select option:active { background: rgba(255, 255, 255, .04) !important; }
 .container__content > * { animation-duration: .18s !important; }
 .download-group__progress-row {
   display: flex !important;
-  align-items: flex-end !important;
-  gap: 16px !important;
+  
+  
   flex-direction: column !important;
   align-items: stretch !important;
   gap: 12px !important;
 }
 .download-group__progress-row > .download-group__hero-buttons { order: 2; align-self: flex-start; }
 .download-group__progress-wrapper {
-  display: flex !important;
+  
   flex-direction: row !important;
-  align-items: center;
+  
   gap: 16px !important;
   display: grid !important;
   grid-template-columns: minmax(0, 1fr) auto;
   grid-template-rows: auto auto;
-  row-gap: 2px;
+  
   column-gap: 16px;
   align-items: end;
   width: 100%;
